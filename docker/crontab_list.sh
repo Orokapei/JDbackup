@@ -143,3 +143,4 @@
 15 9,20 * 5,6 * node /scripts/adolf_superbox.js >> /scripts/logs/adolf_superbox.log 2>&1
 30 7,19 1-18 6 * node /scripts/jd_limitBox.js >> /scripts/logs/jd_limitBox.log 2>&1
 1 20 1-18 6 * node /scripts/long_hby_lottery.js >> /scripts/logs/long_hby_lottery.log 2>&1
+15 0,6,13,19,21 * * * node /scripts/ddo_pk.js >> /scripts/logs/ddo_pk.log 2>&1
